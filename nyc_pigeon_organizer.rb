@@ -1,5 +1,4 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
   new_data = {}
   data.reduce({}) do |memo, (key, value)|
     level = data[key]
